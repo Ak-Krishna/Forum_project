@@ -1,0 +1,46 @@
+.alert {
+ text-transform: capitalize;
+}
+
+.container li {
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.container .card {
+ background: #dca9a94d;
+}
+
+img {
+ width: 2.9em;
+ display: inline-block;
+ position: relative;
+ bottom: 3em;
+ margin-right: 4px;
+ border-radius: 50%;
+}
+
+.media-body {
+ display: inline-block;
+}
+
+.form-group {
+ background: #e6d7d74d;
+ border-radius: 7px;
+ width: 86%;
+}
+
+form {
+ background: transparent;
+}
+#ques{
+ min-height: 233px;
+}
+.img{
+position: relative;
+bottom: 2.2em;
+left: 5px;
+}
+.mt-0{
+position: relative;
+bottom: 10px;
+}
