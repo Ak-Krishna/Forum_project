@@ -1,6 +1,7 @@
 <?php
-$userexist = false;
+$user_exit = false;
 $passmatch = false;
+$_SESSION['loggedin']=false;
 include "_dbconnection.php";
 if (isset($_POST['loginsubmit'])){
  $log_email = $_POST['login_useremail'];
