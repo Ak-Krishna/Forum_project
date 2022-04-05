@@ -13,7 +13,8 @@ if (isset($_POST['loginsubmit'])){
 $row_cnts = mysqli_num_rows($resultquery);
 $row=mysqli_fetch_assoc($resultquery);
  if($row_cnts==1){
-  if($log_password==$row['user_pass']){
+  $pass=password_verify($log_password,$row['user_pass']);
+  if($pass){
   // session_start();
    $_SESSION['username']=$row['user_name'];
    $_SESSION['loggedin']=true;

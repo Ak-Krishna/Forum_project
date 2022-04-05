@@ -20,7 +20,8 @@ $useralert=false;
  else{
  $passalert=false;
  if($password==$cpassword){
-  $sql = "INSERT INTO `users`(`user_name`,`user_email`,`user_pass`)values('$name','$email','$password');";
+  $hash=password_hash($password,PASSWORD_BCRYPT);
+  $sql = "INSERT INTO `users`(`user_name`,`user_email`,`user_pass`)values('$name','$email','$hash');";
   $result = mysqli_query($conn, $sql);
  }
  else{
