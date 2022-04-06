@@ -9,20 +9,20 @@
     <form action="/forum_project/" method="POST">
      <div class="mb-3">
       <label for="name" class="form-label">Name</label>
-      <input type="text" class="form-control" id="name" name="username" aria-describedby="emailHelp">
+      <input type="text" class="form-control" id="name" name="username" aria-describedby="emailHelp" autocomplete="off">
      </div>
      <div class="mb-3">
       <label for="email" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="email" name="useremail" aria-describedby="emailHelp">
+      <input type="email" class="form-control" id="email" name="useremail" aria-describedby="emailHelp" autocomplete="off">
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
      </div>
      <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" name="userpass" id="exampleInputPassword1">
+      <input type="password" class="form-control" name="userpass" id="exampleInputPassword1" autocomplete="off">
      </div>
      <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-      <input type="password" class="form-control" name="usercpass" id="exampleInputPassword1">
+      <input type="password" class="form-control" name="usercpass" id="exampleInputPassword1" autocomplete="off">
      </div>
 
      <button type="submit" name="submit" class="btn btn-primary">Signup</button>
@@ -43,12 +43,12 @@
     <form action="/forum_project/" method="POST">
      <div class="mb-3">
       <label for="email" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="email" name="login_useremail" aria-describedby="emailHelp">
+      <input type="email" class="form-control" id="email" name="login_useremail" aria-describedby="emailHelp" autocomplete="off">
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
      </div>
      <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" name="login_userpass" id="exampleInputPassword1">
+      <input type="password" class="form-control" name="login_userpass" id="exampleInputPassword1" autocomplete="off">
      </div>
      <button type="submit" name="loginsubmit" class="btn btn-primary">Login</button>
     </form>

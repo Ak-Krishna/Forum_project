@@ -20,9 +20,3 @@ if ($useralert) {
  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>';
 }
-elseif($_SESSION['loggedin']==true) {
- echo '<div class="alert alert-success alert-dismissible fade show my-0" role="alert">
- <strong>Success !</strong> Your Account Is Created Successfully Please ,You Can Login Now.
- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>';
-}
